@@ -1,0 +1,9 @@
+# get die Infos über die Host, die man als Konditionen zu nutzen sind
+ansible all -i hosts -u root -m setup
+# wie z.B. ansible_distribution ansible_distribution_release ansible_eth0
+
+cd ~/Ansible/ansible-quiete2015/roles/apache
+ansible-galaxy init apache
+ansible-galaxy init mysql
+ansible-galaxy init common
+ansible-galaxy init php

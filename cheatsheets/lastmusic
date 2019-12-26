@@ -1,0 +1,2 @@
+lastmusic ist ein Alias von 
+ls -t ~/Musik/Isaac/ | less
