@@ -1,0 +1,9 @@
+# Files:
+/etc/minidlna.conf
+/var/cache/minidlna/files.db
+/var/cache/minidlna/art_cache/
+
+# Rescan manuel starten (root). Take a lot of time
+service minidlna stop
+sudo -u minidlna /usr/sbin/minidlnad -R
+service minidlna restart
