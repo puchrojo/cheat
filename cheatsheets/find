@@ -36,3 +36,7 @@ find . -type d -empty -exec rmdir {} \;
 
 # To search for directories named build at a max depth of 2 directories
 find . -maxdepth 2 -name build -type d
+
+----------------------------------------------------------------------------
+# Search all files (but no directories) and make it not executables (for vfat)
+find ./ -type f -print0 | xargs -0 chmod 644
