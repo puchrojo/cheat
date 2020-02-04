@@ -4,4 +4,5 @@ https://weechat.org/files/doc/stable/weechat_quickstart.de.html
 
 /set irc.server.debian.nicks puchrojo
 /add server debian irc.debian.org
-/join #alioth
+/join #alioth (nicht hier)
+/join #debian-mentors
