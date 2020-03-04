@@ -15,3 +15,6 @@ ssh -X -t user@example.com 'chromium-browser'
 
 # For more information, see:
 # http://unix.stackexchange.com/q/12755/44856
+
+# To launch a ssh-agent from terminal:
+eval $(ssh-agent -s)
