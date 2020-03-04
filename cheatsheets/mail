@@ -1,0 +1,4 @@
+mail from shell
+
+echo text-mail | mutt -s subject-with-bild -a Bild.jpg -- your-email@gmail.com
+
