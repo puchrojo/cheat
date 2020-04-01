@@ -5,3 +5,6 @@ sudo usermod -aG docker $USER
 sudo curl https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker -o /etc/bash_completion.d/docker.sh
 sudo curl -L https://raw.githubusercontent.com/docker/compose/1.25.0/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose
 
+# Test Ports 
+docker run -p 0.0.0.0:80:80/tcp -d nginxdemos/hello
+
